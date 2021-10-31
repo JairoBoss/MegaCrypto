@@ -229,6 +229,43 @@ th {
     float: right;
 }
 
-footer {
-    
+#actu {
+    font-family: 'VarelaRound-Regular';
+    color: white;
+    font-size: 12px;
+}
+
+#tablaFooter {
+    width: 85%;
+    justify-content: center;
+    border-top: 3px solid white;
+    border-spacing: 38px 7px;
+}
+
+#tablaFooter th{
+    width: 200px;
+    height: 75px;
+}
+
+#tablaFooter td{
+    color:white;
+}
+
+#nombreFooter{
+    justify-content: center;
+    border: none;
+    height: 83px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Chosky';
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+#fin{
+    font-family: 'VarelaRound-Regular';
+    color: white;
+    font-size: 10px;      
 }
