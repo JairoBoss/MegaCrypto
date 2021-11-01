@@ -402,11 +402,61 @@ th {
     font-size: 17px;
     float: left
 }
-#textLoginn{
+
+#textLoginn {
     font-size: 15px;
     float: left;
 }
 
-#checar:checked{
+#checar:checked {
     background-color: rgb(248, 208, 47);
+}
+
+#izquierda {
+    float: left;
+    border: 3px solid red;
+    width: 20%;
+}
+
+#derecha {
+    float: right;
+    border: 3px solid purple;
+    width: 20%;
+}
+
+#actual {
+    display: inline-block;
+    border: 3px solid yellow;
+    width: 60%;
+}
+
+#diccionario {
+    width: 90%;
+    margin: auto;
+    font-family: 'VarelaRound-Regular';
+    color: white;
+    display: flex;
+    display: flex;
+    align-items: center;
+}
+
+#botonesMovimiento {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #702fd8;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 100px;
+    cursor: pointer;
+    margin: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+#botonesMovimiento:hover {
+    opacity: 1
 }
