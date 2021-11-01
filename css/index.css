@@ -45,7 +45,7 @@ li a {
     float: left;
     font-family: 'VarelaRound-Regular';
     font-size: 15px;
-    margin-top: 24px;
+    margin-top: 10px;
 }
 
 #registrate {
@@ -93,6 +93,14 @@ li a {
     margin: auto;
     font-family: 'VarelaRound-Regular';
     color: white;
+}
+
+#noticiasXD {
+    width: 90%;
+    margin: auto;
+    font-family: 'VarelaRound-Regular';
+    color: white;
+    width: fit-content;
 }
 
 #tituloNoticia {
@@ -242,16 +250,16 @@ th {
     border-spacing: 38px 7px;
 }
 
-#tablaFooter th{
+#tablaFooter th {
     width: 200px;
     height: 75px;
 }
 
-#tablaFooter td{
-    color:white;
+#tablaFooter td {
+    color: white;
 }
 
-#nombreFooter{
+#nombreFooter {
     justify-content: center;
     border: none;
     height: 83px;
@@ -264,8 +272,91 @@ th {
     text-decoration: none;
 }
 
-#fin{
+#fin {
     font-family: 'VarelaRound-Regular';
     color: white;
-    font-size: 10px;      
+    font-size: 10px;
+}
+
+#fin {
+    font-family: 'VarelaRound-Regular';
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: 40px;
+    color: white;
+}
+
+#inputt:focus {
+    outline: none;
+    border: 1px solid rgb(248, 208, 47);
+}
+
+#inputt:hover {
+    border: 1px solid rgb(248, 208, 47);
+}
+
+#inputt:focus:hover {
+    outline: none;
+    border: 1px solid rgb(248, 208, 47);
+}
+
+#inputt {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #272526;
+    color: white;
+    width: 80%;
+    height: 10%;
+    padding: 8px 4px;
+}
+
+#boton {
+    background-color: rgb(248, 208, 47);
+    color: rgb(33, 40, 51);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+}
+
+#boton:hover {
+    opacity: 0.9;
+}
+
+#linksLog {
+    color: #F0B90B;
+}
+
+#linksLog:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#login {
+    text-align: left;
+    width: fit-content;
+}
+
+#loginDiv {
+    border: 3px solid blue;
+    width: 100%;
+}
+
+#bienvenida {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+#bienvenidaText {
+    font-weight: 600;
+    font-size: 15px;
+    color: #B7BDC6;
+}
+
+#textLogin {
+    font-size: 17px;
 }
