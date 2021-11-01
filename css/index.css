@@ -369,6 +369,7 @@ th {
 
 #linksLog {
     color: #F0B90B;
+    text-decoration: none;
 }
 
 #linksLog:hover {
