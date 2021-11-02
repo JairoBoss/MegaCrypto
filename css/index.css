@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: OpenSans-VariableFont_wdth, wght;
+    src: url("../Font/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face {
     font-family: Chosky;
     src: url("../Font/Chomsky.otf");
 }
@@ -43,7 +48,7 @@ li a {
 #login {
     border: none;
     float: left;
-    font-family: 'VarelaRound-Regular';
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     margin-top: 10px;
 }
@@ -52,7 +57,7 @@ li a {
     border: none;
     float: right;
     margin-top: -79px;
-    font-family: 'VarelaRound-Regular';
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
 }
 
@@ -91,13 +96,20 @@ li a {
     border-top: 3px solid white;
     width: 90%;
     margin: auto;
-    font-family: 'VarelaRound-Regular';
+    
+    font-family: 'Open Sans', sans-serif;
     color: white;
 }
 
 #opinionesPublico {
-    
     width: 58%;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+#agregarOpinionesPublico {
+    width: 34%;
     margin: auto;
     font-family: 'VarelaRound-Regular';
     color: white;
@@ -112,7 +124,7 @@ li a {
 }
 
 #tituloNoticia {
-    font-family: 'VarelaRound-Regular';
+    font-family: 'Open Sans', sans-serif;
     text-align: left;
     color: white;
     font-size: 40px;
@@ -120,8 +132,26 @@ li a {
     height: auto;
 }
 
+#tituloNoticiaIndex{
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    width: auto;
+    height: auto;
+}
+
+#textoNoticias{
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    color: white;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+}
+
 #noticias #contendioNoticias {
-    font-family: 'VarelaRound-Regular';
+    font-family: 'Open Sans', sans-serif;
     text-align: left;
     color: white;
     font-size: 20px;
@@ -151,7 +181,7 @@ li a {
 
 #imagenOpinion {
     width: auto;
-    height: 136px;
+    height: 120px;
 }
 
 #topMonedas #ganadores {
@@ -182,7 +212,7 @@ li a {
 }
 
 table {
-    font-family: 'VarelaRound-Regular';
+    font-family: 'Open Sans', sans-serif;
     width: 100%;
     border-spacing: 38px 7px;
 }
@@ -447,7 +477,7 @@ th {
 #diccionario {
     width: 90%;
     margin: auto;
-    font-family: 'VarelaRound-Regular';
+    font-family: 'Open Sans', sans-serif;
     color: white;
     display: flex;
     display: flex;
@@ -512,4 +542,46 @@ th {
     margin: auto;
     font-family: 'VarelaRound-Regular';
     text-decoration: none;
+}
+
+#letrasChicas {
+    font-size: 12px;
+    color: #B7BDC6;
+    margin: auto;
+    font-family: 'VarelaRound-Regular';
+    text-decoration: none;
+}
+
+#imagenArticulo {
+    width: auto;
+    height: 500px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+#opinionGeneral {
+    border-top: 3px solid white;
+    width: 90%;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+#nombreAr {
+    font-size: 12px;
+    color: #B7BDC6;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#nombreAr a {
+    font-size: 12px;
+    color: #B7BDC6;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+#linkAOpinion {
+    text-decoration: underline;
+    color: white;
 }
