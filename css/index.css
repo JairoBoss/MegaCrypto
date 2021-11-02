@@ -255,8 +255,9 @@ th {
     height: 75px;
 }
 
-#tablaFooter td {
-    color: white;
+#tablaFooter td a{
+    color: #B7BDC6;
+    text-decoration: none;
 }
 
 #nombreFooter {
@@ -414,19 +415,19 @@ th {
 
 #izquierda {
     float: left;
-    border: 3px solid red;
+    /*border: 3px solid red;*/
     width: 20%;
 }
 
 #derecha {
     float: right;
-    border: 3px solid purple;
+    /*border: 3px solid purple;*/
     width: 20%;
 }
 
 #actual {
     display: inline-block;
-    border: 3px solid yellow;
+    /*border: 3px solid yellow;*/
     width: 60%;
 }
 
@@ -443,13 +444,13 @@ th {
 #botonesMovimiento {
     display: inline-block;
     border-radius: 4px;
-    background-color: #702fd8;
+    background-color: rgb(248, 208, 47);
     border: none;
     color: #FFFFFF;
     text-align: center;
     font-size: 28px;
     padding: 20px;
-    width: 100px;
+    width: auto;
     cursor: pointer;
     margin: 5px;
     cursor: pointer;
