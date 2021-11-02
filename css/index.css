@@ -95,6 +95,14 @@ li a {
     color: white;
 }
 
+#opinionesPublico {
+    
+    width: 58%;
+    margin: auto;
+    font-family: 'VarelaRound-Regular';
+    color: white;
+}
+
 #noticiasXD {
     width: 90%;
     margin: auto;
@@ -139,6 +147,11 @@ li a {
 
 #imageCripto {
     width: 230px;
+}
+
+#imagenOpinion {
+    width: auto;
+    height: 136px;
 }
 
 #topMonedas #ganadores {
@@ -255,7 +268,7 @@ th {
     height: 75px;
 }
 
-#tablaFooter td a{
+#tablaFooter td a {
     color: #B7BDC6;
     text-decoration: none;
 }
@@ -460,4 +473,43 @@ th {
 
 #botonesMovimiento:hover {
     opacity: 1
+}
+
+#micuenta {
+    width: 30%;
+    margin: auto;
+    font-family: 'VarelaRound-Regular';
+    color: white;
+}
+
+#noticias h2 {
+    width: auto;
+    height: auto;
+}
+
+#Opiniones {
+    border: 2px solid yellow;
+}
+
+#notiOp {
+    border-bottom: 1px solid #ccc;
+    margin-left: 20px;
+    margin-right: 30px;
+    text-align: left;
+    list-style: none;
+}
+
+#nombre {
+    font-size: 12px;
+    color: #B7BDC6;
+    margin: auto;
+    font-family: 'VarelaRound-Regular';
+}
+
+#nombre a {
+    font-size: 12px;
+    color: #B7BDC6;
+    margin: auto;
+    font-family: 'VarelaRound-Regular';
+    text-decoration: none;
 }
