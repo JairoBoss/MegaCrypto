@@ -8,11 +8,20 @@ function Videos(nombre, ruta, definicion) {
 
 let blockchain = new Videos('¿Que es el blockchain?', 'https://www.youtube.com/embed/Yn8WGaO__ak', '¿Qué es Blockchain? ¿Cómo funciona? En este video aprenderas un poco de como funciona el blockchain sin complicarte mucho.');
 let nft = new Videos('¿Que es un  nft?', 'https://www.youtube.com/embed/h99R5bwHHe4', '¿Qué es un NFT? sin complicaciones, facil y sencillo para toda la familia.');
+let historiaBTC = new Videos('Historia del BTC', 'https://www.youtube.com/embed/6aKOxuxvm0g', 'Historia del BTC con dibujos animados.');
+let staking = new Videos('¿Qué es STAKING?', 'https://www.youtube.com/embed/oGnxlPJfDJY', 'Como funciona el Staking?.');
+let allBTC = new videos('Todo acerca de BTC', 'https://www.youtube.com/embed/3y1IxHrs158','Todo lo que necesitas sabes acerca de BTC');
+
+
 //https://www.youtube.com/watch?v=6aKOxuxvm0g&ab_channel=FredLammie
 
 
 videos.push(blockchain);
 videos.push(nft);
+videos.push(historiaBTC);
+videos.push(staking);
+videos.push(allBTC);
+
 
 
 var imagen_a_mostrar = 0;
